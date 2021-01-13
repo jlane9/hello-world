@@ -32,7 +32,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "start:android": "npx cap copy && npx cap open android",
+    "start:electron": "npx cap copy && npx cap open @capacitor-community/electron",
+    "start:ios": "npx cap copy && npx cap open ios",
     "build": "react-scripts build",
+    "build:capacitor": "react-scripts build && npx cap copy && npx cap sync",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
