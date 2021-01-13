@@ -2,7 +2,7 @@ import React from 'react';
 import { Redirect, Route } from 'react-router-dom';
 import { IonApp } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import Tabs from './components/Tabs';
+import Tabs from './components/tabs/Tabs';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';

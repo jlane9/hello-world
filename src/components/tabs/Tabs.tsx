@@ -9,9 +9,9 @@ import {
     IonTabs
 } from '@ionic/react';
 import { homeSharp, personSharp, search } from 'ionicons/icons';
-import Home from '../pages/Home';
-import Search from '../pages/Search';
-import Account from '../pages/Account';
+import Home from '../../pages/home/Home';
+import Search from '../../pages/search/Search';
+import Account from '../../pages/account/Account';
 
 
 const Tabs: React.FC = () => {
