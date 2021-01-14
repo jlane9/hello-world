@@ -1,5 +1,5 @@
 import React from 'react';
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonContent, IonHeader, IonPage, IonSearchbar, IonTitle, IonToolbar } from '@ionic/react';
 
 const Search: React.FC = () => {
   return (
@@ -7,6 +7,9 @@ const Search: React.FC = () => {
       <IonHeader>
         <IonToolbar>
           <IonTitle>Search</IonTitle>
+        </IonToolbar>
+        <IonToolbar>
+          <IonSearchbar />
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
