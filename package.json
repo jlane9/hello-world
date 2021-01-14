@@ -49,6 +49,9 @@
     "build:capacitor": "react-scripts build && npx cap copy && npx cap sync",
     "build:storybook": "build-storybook -s public",
     "eject": "react-scripts eject",
+    "lint": "eslint --ext .js,.mjs,.jsx,.ts,.tsx src --color",
+    "lint:fix": "eslint --ext .js,.mjs,.jsx,.ts,.tsx src --fix",
+    "prettier:fix": "prettier --write ./src/**/*.*",
     "start": "react-scripts start",
     "start:android": "npx cap copy && npx cap open android",
     "start:electron": "npx cap copy && npx cap open @capacitor-community/electron",
@@ -58,17 +61,21 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged",
+      "pre-push": "npm test"
     }
   },
   "lint-staged": {
-    "**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
-      "npx prettier --write",
-      "eslint src/*.js --fix-dry-run"
-    ]
+    "*.js": "eslint --cache --fix",
+    "*.{js,jsx,ts,tsx,json,css,scss,md}": "prettier --write"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+    "rules": {
+      "jsx-a11y/alt-text": "off",
+      "jsx-a11y/anchor-is-valid": "off",
+      "react/jsx-no-target-blank": "off"
+    }
   },
   "browserslist": {
     "production": [

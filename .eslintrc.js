@@ -1,7 +1,9 @@
 module.exports = {
-    extends: ['airbnb'],
-    rules: {
-        'react/jsx-filename-extension': 'off',
-        //You can override any rules you want
-    },
+  plugins: ['@typescript-eslint'],
+  extends: ['react-app'],
+  parser: '@typescript-eslint/parser',
+  rules: {
+    'react/jsx-filename-extension': 'off',
+    //You can override any rules you want
+  },
 };
