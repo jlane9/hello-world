@@ -41,3 +41,5 @@ UserInterfaceState.xcuserstate
 electron/dist/
 
 build/
+
+.eslintcache
