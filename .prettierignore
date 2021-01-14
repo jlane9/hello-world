@@ -1,0 +1,7 @@
+# Ignore artifacts:
+build
+android
+ios
+
+# Ignore dependencies:
+node_modules

@@ -17,22 +17,22 @@ import '@ionic/react/css/text-alignment.css';
 import '@ionic/react/css/text-transformation.css';
 import '@ionic/react/css/flex-utils.css';
 import '@ionic/react/css/display.css';
-import {IonReactRouter} from "@ionic/react-router";
+import { IonReactRouter } from '@ionic/react-router';
 
 const IonWrapper = ({ children }) => {
   return (
-      <IonApp>
-        <IonPage>
-            <IonReactRouter>
-                <IonContent>{children}</IonContent>
-            </IonReactRouter>
-        </IonPage>
-      </IonApp>
+    <IonApp>
+      <IonPage>
+        <IonReactRouter>
+          <IonContent>{children}</IonContent>
+        </IonReactRouter>
+      </IonPage>
+    </IonApp>
   );
 };
 
 addDecorator((storyFn) => <IonWrapper>{storyFn()}</IonWrapper>);
 
 export const parameters = {
-  actions: { argTypesRegex: "^on[A-Z].*" },
-}
+  actions: { argTypesRegex: '^on[A-Z].*' },
+};
