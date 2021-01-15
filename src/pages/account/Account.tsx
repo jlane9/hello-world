@@ -4,9 +4,9 @@ import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/rea
 const Account: React.FC = () => {
   return (
     <IonPage>
-      <IonHeader className="ion-text-center">
+      <IonHeader>
         <IonToolbar>
-          <IonTitle>Account</IonTitle>
+          <IonTitle className="ion-text-center">Account</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>

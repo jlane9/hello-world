@@ -4,9 +4,9 @@ import { IonContent, IonHeader, IonPage, IonSearchbar, IonTitle, IonToolbar } fr
 const Search: React.FC = () => {
   return (
     <IonPage>
-      <IonHeader className="ion-text-center">
+      <IonHeader>
         <IonToolbar>
-          <IonTitle>Search</IonTitle>
+          <IonTitle className="ion-text-center">Search</IonTitle>
         </IonToolbar>
         <IonToolbar>
           <IonSearchbar />
