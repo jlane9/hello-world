@@ -6,16 +6,15 @@ const Home: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle className="ion-text-center">Home</IonTitle>
+          <IonTitle className="ion-text-center">My Stuff</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Home</IonTitle>
+            <IonTitle size="large">My Stuff</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <div>This is some content for you viewing pleasure</div>
       </IonContent>
     </IonPage>
   );
