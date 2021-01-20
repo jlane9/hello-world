@@ -16,7 +16,7 @@ const Home: React.FC = () => {
           </IonToolbar>
         </IonHeader>
         <div>
-          Change it once more...
+          This is fun
         </div>
       </IonContent>
     </IonPage>
