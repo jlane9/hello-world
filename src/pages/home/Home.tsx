@@ -16,7 +16,7 @@ const Home: React.FC = () => {
           </IonToolbar>
         </IonHeader>
         <div>
-          This is fun
+          This is a demo....
         </div>
       </IonContent>
     </IonPage>
