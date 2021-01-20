@@ -18,7 +18,7 @@ const Tabs: React.FC = () => {
       <IonTabBar slot="bottom">
         <IonTabButton tab="home" href="/tabs/home">
           <IonIcon icon={homeSharp} />
-          <IonLabel>My Stuff</IonLabel>
+          <IonLabel>Home</IonLabel>
         </IonTabButton>
         <IonTabButton tab="tab2" href="/tabs/search">
           <IonIcon icon={search} />
