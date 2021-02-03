@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { addDecorator } from '@storybook/react';
 import { IonApp, IonContent, IonPage } from '@ionic/react';
 

@@ -2,9 +2,9 @@ import React from 'react';
 import { Redirect, Route } from 'react-router-dom';
 import { IonIcon, IonLabel, IonRouterOutlet, IonTabBar, IonTabButton, IonTabs } from '@ionic/react';
 import { homeSharp, personSharp, search } from 'ionicons/icons';
-import Home from '../../pages/home/Home';
-import Search from '../../pages/search/Search';
-import Account from '../../pages/account/Account';
+import Home from './home/Home';
+import Search from './search/Search';
+import Account from './account/Account';
 
 const Tabs: React.FC = () => {
   return (
