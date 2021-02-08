@@ -1,6 +1,6 @@
 import React from 'react';
 import { Meta } from '@storybook/react/types-6-0';
-import Search from '../../pages/search/Search';
+import Search from '../../pages/Search';
 
 export default {
   title: 'Pages/Search',
