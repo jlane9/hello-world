@@ -1,5 +1,7 @@
 # Hello World
 
+A simple app used for testing and demonstration purposes.
+
 ## Getting Started
 
 ### Installation
