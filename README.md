@@ -39,3 +39,4 @@ npm run start:ios
 ## Other libraries
 
 firebase
+fastlane
