@@ -35,3 +35,7 @@ npm run start:android
 ```bash
 npm run start:ios
 ```
+
+## Other libraries
+
+firebase
