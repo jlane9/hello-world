@@ -38,5 +38,6 @@ npm run start:ios
 
 ## Other libraries
 
+cypress
 firebase
 fastlane
