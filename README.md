@@ -41,3 +41,4 @@ npm run start:ios
 cypress
 firebase
 fastlane
+msw
