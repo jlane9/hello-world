@@ -42,3 +42,4 @@ cypress
 firebase
 fastlane
 msw
+tailwind
