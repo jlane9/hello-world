@@ -1,5 +1,5 @@
 {
-  "appId": "io.ionic.starter",
+  "appId": "com.jlane.helloworld",
   "appName": "hello-world",
   "bundledWebRuntime": false,
   "npmClient": "npm",
