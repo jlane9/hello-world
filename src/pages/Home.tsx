@@ -17,7 +17,7 @@ const Home: React.FC = () => {
           </IonToolbar>
         </IonHeader>
         <div>
-          Hello { FOO } and { BAR }. This is { ENVIRONMENT }
+          Hello { FOO } and { BAR }. This is { ENVIRONMENT }.
         </div>
       </IonContent>
     </IonPage>
