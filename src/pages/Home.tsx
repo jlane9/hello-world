@@ -1,5 +1,6 @@
 import React from 'react';
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { FOO, BAR, ENVIRONMENT } from '../declarations/constants';
 
 const Home: React.FC = () => {
   return (
@@ -16,7 +17,7 @@ const Home: React.FC = () => {
           </IonToolbar>
         </IonHeader>
         <div>
-          This is a demo....
+          Hello { FOO } and { BAR }. This is { ENVIRONMENT }
         </div>
       </IonContent>
     </IonPage>
