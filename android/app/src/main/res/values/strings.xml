@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-  <string name="app_name">hello-world</string>
-  <string name="title_activity_main">hello-world</string>
-  <string name="package_name">io.ionic.starter</string>
-  <string name="custom_url_scheme">io.ionic.starter</string>
+    <string name="app_name">hello-world</string>
+    <string name="title_activity_main">hello-world</string>
+    <string name="package_name">com.jlane.helloworld</string>
+    <string name="custom_url_scheme">com.jlane.helloworld</string>
   <string name="ionic_app_id"></string>
   <string name="ionic_channel_name">Production</string>
   <string name="ionic_update_method">background</string>
