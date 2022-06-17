@@ -2,8 +2,8 @@ import React from 'react';
 import { Redirect, Route } from 'react-router-dom';
 import { IonApp, setupIonicReact } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
+import Home from './pages/Home';
 import PrivacyPolicy from './pages/Privacy';
-import Tabs from './pages/Tabs';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -24,14 +24,17 @@ import '@ionic/react/css/display.css';
 /* Theme variables */
 import './theme/variables.css';
 
+/* Tailwind */
+import './tailwind.output.css';
+
 setupIonicReact();
 
 const App: React.FC = () => (
   <IonApp>
     <IonReactRouter>
-      <Route path="/tabs" component={Tabs} />
+      <Route path="/home" component={Home} />
       <Route path="/privacy" component={PrivacyPolicy} />
-      <Route path="/" render={() => <Redirect to="/tabs" />} exact={true} />
+      <Route path="/" render={() => <Redirect to="/home" />} exact={true} />
     </IonReactRouter>
   </IonApp>
 );
